@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/C$522 family-Poppins:weht@300;490;500;600;8008family=VT323&display=swap");
+
+ /* :root {
+  --primary: green;
+  --error: red;
+}  */
+
+body {
+  background: #f1f1f1;
+  margin: 0;
+  font-family: "Poppins";
+}
+
+header {
+  background: #fff;
+} */
+
+header .container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* header a {
+  color: #3333;
+  text-decoration: none;
+} */
+
+.pages {
+  max-width: 1400px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+/* Bootstrap css */
+:root {
+  --primary: green;
+  --error: red;
+}
+
+body {
+  background: #f1f1f1;
+  margin: 0;
+  font-family: "Poppins";
+}
+
+/* Additional Bootstrap styling classes can be used for header and container */
+header {
+  background: #fff;
+}
+
+header a {
+  color: #333;
+  text-decoration: none;
+}
+
+.home {
+  display: flex;
+  justify-content: space-between; /* Align the children with space between them */
+  align-items: flex-start; /* Align children to the top */
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.workouts {
+  flex: 1; /* Allow the workouts div to take as much space as possible */
+  padding-right: 10%;
+}
+
+.workout-details {
+  background: #fff;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  padding: 30px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.05);
+  width: 100%; 
+  position: relative;
+}
+
+.workout-details h4 {
+  margin: 0 0 10px 0;
+  font-size: 1.5em;
+  color: var(--primary);
+}
+
+.workout-details p {
+  margin: 0;
+  font-size: 1.1em;
+  color: #555;
+}
+
+.workout-details span {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  background: #f1f1f1;
+  padding: 8px;
+  color: #333;
+}
+
+/* Additional styles for the WorkoutForm */
+.workout-form {
+  flex: 0 0 30%; /* Set a fixed width for the WorkoutForm (adjust as needed) */
+  padding-left: 20px; /* Add some spacing between the WorkoutDetails and WorkoutForm */
+
+}
+
+
+
+
+
+
+
+/* NEW WORKOIUT FORM */
+label,
+input {
+  display: block;
+}
+input {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+form button {
+  background: var(--primary);
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  font-family: "Poppins";
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+div.error {
+  padding: 10px;
+  background: #ffefef;
+  border: 1px solid var (--error);
+  color: var (--error); border-radius: 4px;
+  margin: 20px 0;
+}
+
+input.error{
+  border: 1px solid var(--error);
+}
+
+.create{
+  width: 100%;
+  /* padding-right: 20%; */
+  margin-right: 120px;
+}
+
